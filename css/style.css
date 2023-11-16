@@ -130,3 +130,14 @@ h1{
     }
 
 }
+ 
+@media (max-width:480px) {
+    .cont-p{
+        font-size: 13px;
+        
+    }
+    h3{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+}
