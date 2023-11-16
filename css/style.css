@@ -2,7 +2,6 @@ ul{
     display: flex;
     gap:50px;
     justify-content: flex-end;
-    margin-top: 25px;
     margin-left: 99px;
     margin-right: 80px;
 }
@@ -16,8 +15,15 @@ li{
     line-height: normal;
 }
 .icon{
-    
-    margin-right: 670px;
+    margin-left: 99px;
+}
+nav{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 18px;
+    align-items: center;
 }
 .div-img{
     background-image: url("../images/Rectangle 1.png");
@@ -57,6 +63,7 @@ h1{
     font-weight: 400;
     line-height: normal;
     margin-top: 37px;
+    width: 235px;
  }
  h2{
     color: #010101;
@@ -69,8 +76,9 @@ h1{
  }
  .container{
     margin-left: 100px;
-    display:inline-block;
     margin-right: 100px;
+    display: flex;
+    flex-direction: column;
  }
  h3{
     color: #343232;
@@ -98,7 +106,27 @@ h1{
 .main-cont2{
     display: flex;
     gap:33px;
-    margin-left: 466px;
     margin-top: 54px;
     margin-bottom: 140px;
+}
+.two-div{
+    display: flex;
+}
+
+
+@media (max-width:1410px) {
+    .two-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container{
+        flex-direction: row;
+        align-items: flex-end;
+        gap:10px;
+        margin-bottom: 100px;
+    }
+    .container-p{
+        width: 100%;
+    }
+
 }
